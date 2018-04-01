@@ -1,6 +1,6 @@
 
 var fs = require('fs');
-var path = "/home/pi/transmit/1.jpg";
+var path = "../1.jpg";
 
 
 
@@ -22,4 +22,4 @@ function upload()
         }
     );
 }
-setInterval(upload,500);
+setInterval(upload,1000);
