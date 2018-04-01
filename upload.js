@@ -22,4 +22,4 @@ function upload()
         }
     );
 }
-setInterval(upload,1000);
+setInterval(upload,2000);
